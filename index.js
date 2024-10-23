@@ -4,7 +4,7 @@ const app = express();
 const port = 8000;
 
 // Load the route handlers
-const mainRoutes = require("./routes/mian");
+const mainRoutes = require("./routes/main");
 app.use('/', mainRoutes);
 
 //start listening for HTTP requests
